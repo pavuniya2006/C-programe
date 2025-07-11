@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int number = 78;         
+    int digit1 = number / 10;
+    int digit2 = number % 10;
+    int sum = digit1 + digit2;
+
+    printf("Bird said:%d\n", number);
+    printf("Alice must go in path-%d\n", sum);
+
+    return 0;
+}
